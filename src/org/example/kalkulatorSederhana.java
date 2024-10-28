@@ -1,5 +1,7 @@
 package org.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 /**
@@ -61,6 +63,7 @@ class KalkulatorSederhana extends Kalkulatorwawok implements kalkulatorwawa {
         }
 
         System.out.println("Hasil: " + hasil);
+        System.out.println("rajwaa");
         scanner.close();
     }
 
@@ -108,6 +111,6 @@ class KalkulatorSederhana extends Kalkulatorwawok implements kalkulatorwawa {
      * @return hasil pembagian <code>a / b</code>
      * @throws ArithmeticException jika <code>b</code> sama dengan 0
      */
-
+    sout
     public double bagi(double a, double b) { return a/b;}
 }
